@@ -1,0 +1,9 @@
+---
+version: "3.9"
+services:
+  angu:
+   container_name: angular-nginx
+   image: angular-compose2
+   ports:
+    - 80:80
+
